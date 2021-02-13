@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon"type="image/x-icon" href="img/food-img/soup.png">
+<link rel="shortcut icon"type="text/css" href="uikit.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet"type="text/css" href="css/food-style-responsive.css">
+<link rel="stylesheet"type="text/css" href="css/progressbars.css">
+<link rel="stylesheet"type="text/css" href="css/food-style2.css">
+<title>food_delivery_web</title>
+</head>
+<body>
+
+
+<div class="icon-1">
+<i class="fa fa-search"></i>
+</div>
+
+<ul class="">
+<li><a href="">home</a></li>
+<li><a href="">about</a></li>
+<li><a href="">menu</a></li>
+<li><a href="">expert</a></li>
+<li><a href="">testimonials</a></li>
+<li><a href="">contact</a></li>
+</ul>
+<div class="box two animate fadeDown">
+<div class="icon-2">
+<i class="fa fa-facebook"></i>
+</div>
+
+<form action="" class="form-area">
+<input type="text" placeholder="search your content....">
+<button>submit</button>
+</form>
+
+</div>
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+const scrollUp =document.querySelector('.scrollup');
+window.addEventListener('scroll',()=> {
+if(window.pageYOffset > 100){
+scrollUp.classList.add("active");
+
+}else{
+scrollUp.classList.remove("active");
+}
+});
+</script>
+<script type="text/javascript">
+
+setTimeout(function(){
+
+$('#loading').fadeToggle();
+},3000);
+
+</script>
+
+<script>
+	$('.icon-1,.icon-2').on('click', function(){
+		
+			$('.box').toggleClass('open');
+			
+			});	
+			
+			
+	</script>
+</body>
+</html>

@@ -1340,6 +1340,13 @@ button.owl-prev i {
     transition: all .3s;
 	outline:none;
 }
+
+button.owl-next i,
+button.owl-prev i:hover{
+background-color:#08d665;
+
+color:white;
+}
 .protfolio-section {
    
     margin-bottom: 200px;

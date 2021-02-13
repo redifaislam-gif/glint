@@ -78,13 +78,15 @@ html{
 	
 	
 	.mobile span {
-    z-index: 999999;
+		position:absolute;
+    z-index:1;
     color: #08D665;
     font-size: 30px;
     display: none;
     margin-top: 6px;
     float: right;
-    margin-left: 280px;
+   right:40px;
+   top:25px;
 }
 
 }
